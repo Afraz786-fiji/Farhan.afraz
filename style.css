@@ -45,13 +45,6 @@ body, html {
 
 }
 
-.menu{
-  order: 1;
-  background-color: darkgrey;
-  padding: 20px;
-  width: 50%;
-}
-
 .content{
   order: 2;
   background-color: gold;
@@ -104,18 +97,19 @@ body, html {
   display: flex;
   flex-direction: row;
   gap: 25px;
-  padding: 30px;
+  padding: 39px;
   max-width: 1200px;
   margin: auto;
 }
 
 /* MENU */
 .menu {
-  background-color: #05a4c4;
-  padding: 20px;
-  width: 25%;
+  background-color: red;
+  padding: 10px;
+  width: 50%;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px gray;
+  height: 150%;
 }
 
 .menu a {
@@ -134,15 +128,16 @@ body, html {
   color: #1f7a32;
 }
 
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
 
-.btn:hover {
-  background-color: RoyalBlue;
+.dark-mode {
+  background-color: black;
+  color: white;
 }
+
