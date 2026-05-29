@@ -142,7 +142,8 @@ body {
 }
 
 footer {
-  background-color: red;
+  padding: 30px;
+  background-color: gray;
   padding: 10px;
   text-align: center;
   color: black;
