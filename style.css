@@ -142,9 +142,9 @@ body {
 }
 
 footer {
-  background-color: #777;
+  background-color: red;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
